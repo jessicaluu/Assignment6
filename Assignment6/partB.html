@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Part B | Guessing Game</title>
+        <script src="partB.js" type="text/javascript"></script>
+        <link href="partB.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <h1>Guessing Game</h1>
+        
+        <form>
+            <p>MISSION: Guess a number from 1 to 100.
+            <br>Once the game is over and you win or lose, guess another number to start a new game.</p>
+            <input type="text" name="inputGuess" id="inputGuess"><br>
+            <input type="submit" value="Guess" onclick="checkGuess(); return false;" size="20">
+            <p id="output"></p>
+        </form>
+        
+        <a href="partA.html"><p id="PartA">Part A</p></a>
+        <a href="partC.html"><p id="PartC">Part C</p></a>
+    </body>
+</html>
